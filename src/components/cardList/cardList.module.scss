@@ -1,0 +1,119 @@
+.cardContainer {
+    margin-top: 2rem;
+    width: 100%;
+    height: 5.4375rem;
+    border-left: 0.25rem solid var(--color-secondary);
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .cardDescription {
+        width: 21.0625rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding-left: .625rem;
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--grey4);
+        }
+
+        p {
+            font-size: .75rem;
+            font-weight: 400;
+            color: var(--grey3);
+        }
+    }
+
+    .cardValue {
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+        p {
+            font-size: .75rem;
+            font-weight: 400;
+            color: var(--grey4);
+        }
+
+        button {
+            width: 4rem;
+            height: 1.5rem;
+            border: 1px solid rgba(233, 236, 239, 1);
+            border-radius: .125rem;
+            background-color: rgba(233, 236, 239, 1);
+            font-size: .625rem;
+            font-weight: 400;
+            color: rgba(33, 37, 41, 1);
+        }
+
+        button:hover {
+            background-color: var(--grey4);
+            color: var(--grey1);
+        }
+    }
+}
+
+.cardContainerGrey {
+    margin-top: 2rem;
+    width: 100%;
+    height: 5.4375rem;
+    border-left: 0.25rem solid var(--grey2);
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .cardDescription {
+        width: 21.0625rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding-left: .625rem;
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--grey4);
+        }
+
+        p {
+            font-size: .75rem;
+            font-weight: 400;
+            color: var(--grey3);
+        }
+    }
+
+    .cardValue {
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+        p {
+            font-size: .75rem;
+            font-weight: 400;
+            color: var(--grey4);
+        }
+
+        button {
+            width: 4rem;
+            height: 1.5rem;
+            border: 1px solid rgba(233, 236, 239, 1);
+            border-radius: .125rem;
+            background-color: rgba(233, 236, 239, 1);
+            font-size: .625rem;
+            font-weight: 400;
+            color: rgba(33, 37, 41, 1);
+        }
+
+        button:hover {
+            background-color: var(--grey4);
+            color: var(--grey1);
+        }
+    }
+}

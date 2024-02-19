@@ -1,0 +1,30 @@
+.sumContainer {
+    width: 87%;
+    padding: 1.25rem 1.4875rem;
+    border: .0625rem solid rgba(233, 236, 239, 1);
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--grey4);
+        }
+
+        span {
+            color: var(--color-primary);
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+
+    p {
+        color: var(--grey3);
+        font-size: .75rem;
+        font-weight: 400;
+    }
+}
